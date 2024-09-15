@@ -1,0 +1,41 @@
+*{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body{
+    background-color: #f4f4f4;
+}
+li{
+    cursor: pointer;
+} 
+
+.card{
+    height:450px;
+    border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+    transition: all 0.5s
+}
+.card:hover {
+    border: 2px solid #ffffff;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+.badge:hover{
+    background-color: #DC3545;
+    border: 2px;
+    border-color: #DC3545;
+    color: #ffffff;
+}
+
+.badge:active{
+    background-color: #ffffff;
+    border: 2px;
+    border-color: #DC3545;
+    color: #ffffff;
+}
